@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8d07a"/>
+      <stop offset="40%" stop-color="#d4b44e"/>
+      <stop offset="100%" stop-color="#a07830"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark background -->
+  <rect width="192" height="192" rx="24" fill="#2a2a2a"/>
+  <!-- Subtle border -->
+  <rect x="6" y="6" width="180" height="180" rx="20" fill="none" stroke="#d4b44e" stroke-width="2" opacity="0.3"/>
+  <!-- Art deco "A" - wide base, narrow apex, like the Ardmore logo -->
+  <g transform="translate(96,98)" fill="url(#brass)">
+    <!-- Left leg -->
+    <polygon points="-8,-70 -56,72 -40,72"/>
+    <!-- Right leg -->
+    <polygon points="8,-70 56,72 40,72"/>
+    <!-- Apex connection -->
+    <polygon points="-8,-70 8,-70 4,-56 -4,-56"/>
+    <!-- Crossbar -->
+    <rect x="-32" y="18" width="64" height="14" rx="2"/>
+  </g>
+  <!-- Art deco accent lines -->
+  <line x1="28" y1="22" x2="164" y2="22" stroke="#d4b44e" stroke-width="1.5" opacity="0.35"/>
+  <line x1="28" y1="170" x2="164" y2="170" stroke="#d4b44e" stroke-width="1.5" opacity="0.35"/>
+</svg>
